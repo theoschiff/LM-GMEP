@@ -1,6 +1,9 @@
 # Goal
 Predict Pathogenic vs Benign mutations from sequence alone (i.e not using clinical info)
 
+## Method
+Trained and evaluated state-of-the-art language models.
+
 ## Dataset
 70 Cancer genes from ClinVar: https://www.ncbi.nlm.nih.gov/clinvar/ 
 *hgvs4variation_filtered.csv* contains GeneID with AlleleID , wildtype sequence and nucleotide expression after variation
@@ -15,6 +18,13 @@ Removed samples without clinical significance info
 
 ## Big picture
 ![bigpicturegenes](https://user-images.githubusercontent.com/73180998/233119220-301c38e9-6f27-4b8a-9301-753e7d055e6c.png)
+In total: 
+66455 VUSs<br>
+1195 Benign<br>
+1800 Pathogenic
+
+~ 3K data points for evaluation
+
 
 ## Format
 Everything is contained in jupyter notebooks, including visualisation, validation and training.
@@ -34,6 +44,13 @@ https://www.nature.com/articles/s41586-021-04043-8#Abs1
 
 ## Results 
 Achieved 0.85 AUC by combining inverse folding model and EVE model.
+## Analysis
+While the inverse folding performs worse than the other two, we note that it outperforms the best model EVE on  14 / 70 genes highlighting the potential power of combining MSA & structure based approached.
+
+Is this a function of the quality of the 3D structure?<br>
+>It doesn't seem so. 
+
+SpearmannR = 0.1, meaning that there is no correlation between the per-residue confidence score of the protein structure and the AUC.
 
 ### Note
 The code is somewhat unorganised and is far from optimal.
