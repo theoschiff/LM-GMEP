@@ -2,7 +2,7 @@
 Predict Pathogenic vs Benign mutations from sequence alone (i.e not using clinical info)
 
 ## Method
-Trained and evaluated state-of-the-art language models.
+Trained and evaluated state-of-the-art language models and analysed results.
 
 ## Dataset
 70 Cancer genes from ClinVar: https://www.ncbi.nlm.nih.gov/clinvar/ 
