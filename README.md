@@ -6,8 +6,9 @@ Trained and evaluated state-of-the-art language models.
 
 ## Dataset
 70 Cancer genes from ClinVar: https://www.ncbi.nlm.nih.gov/clinvar/ 
-*hgvs4variation_filtered.csv* contains GeneID with AlleleID , wildtype sequence and nucleotide expression after variation
-*variant_summary_filtered.csv* contains the clinical signifance for many single mutations of the selected gene
+<br>
+*hgvs4variation_filtered.csv* contains GeneID with AlleleID , wildtype sequence and nucleotide expression after variation <br>
+*variant_summary_filtered.csv* contains the clinical signifance for many single mutations of the selected gene <br>
 
 ## Cleaning and transformations
 Applied several filters to the data:
