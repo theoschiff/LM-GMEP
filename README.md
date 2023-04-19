@@ -18,6 +18,8 @@ Removed samples without clinical significance info
 
 ## Big picture
 ![bigpicturegenes](https://user-images.githubusercontent.com/73180998/233119220-301c38e9-6f27-4b8a-9301-753e7d055e6c.png)
+<br>
+
 In total: 
 66455 VUSs<br>
 1195 Benign<br>
