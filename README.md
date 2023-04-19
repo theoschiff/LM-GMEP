@@ -33,7 +33,7 @@ In total:
 Everything is contained in jupyter notebooks, including visualisation, validation and training.
 
 ## Models
-Copyright (c) Facebook, Inc. and its affiliates.
+Copyright (c) Facebook, Inc. and its affiliates. <br>
 Deborah Marks' group 
 
 **ESM-1v**: Published by Meta, trained as a masked language model on millions of proteins <br>
