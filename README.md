@@ -1,5 +1,5 @@
 # Goal
-Predict Pathogenic vs Benign mutations from sequence alone  (i.e not using clinical info)
+Predict Pathogenic vs Benign mutations from sequence alone (i.e not using clinical info)
 
 ## Dataset
 70 Cancer genes from ClinVar: https://www.ncbi.nlm.nih.gov/clinvar/ 
@@ -22,17 +22,18 @@ Everything is contained in jupyter notebooks, including visualisation, validatio
 ## Models
 Copyright (c) Facebook, Inc. and its affiliates.
 Deborah Marks' group 
-ESM-1v: Published by Meta, trained as a masked language model on millions of proteins
+
+**ESM-1v**: Published by Meta, trained as a masked language model on millions of proteins <br>
 https://www.biorxiv.org/content/10.1101/2021.07.09.450648v2.full 
 
-EVE: Published by Deborah Marks’s group, also MSA based, claims > 90 AUC on ClinVar
+**EVE**: Published by Deborah Marks’s group, also MSA based, claims > 90 AUC on ClinVar<br>
 https://www.nature.com/articles/s41586-021-04043-8#Abs1
 
-ESM-1F: Inverse-Folding model (predict sequence from structure), uses 3D
+**ESM-1F**: Inverse-Folding model (predict sequence from structure), uses 3D protein structure generated from *AlphaFold2* Model<br>
 https://www.nature.com/articles/s41586-021-04043-8#Abs1
 
 ## Results 
-Achieved 0.85 AUC by combining inverse folding model and EVE model
+Achieved 0.85 AUC by combining inverse folding model and EVE model.
 
 ### Note
 The code is somewhat unorganised and is far from optimal.
