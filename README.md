@@ -5,7 +5,7 @@ Predict Pathogenic vs Benign mutations from sequence alone (i.e not using clinic
 Trained and evaluated state-of-the-art language models and analysed results.
 
 ## Dataset
-70 Cancer genes from ClinVar: https://www.ncbi.nlm.nih.gov/clinvar/ 
+70 Cancer genes from [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/) 
 <br>
 *hgvs4variation_filtered.csv* contains GeneID with AlleleID , wildtype sequence and nucleotide expression after variation <br>
 *variant_summary_filtered.csv* contains the clinical signifance for many single mutations of the selected gene <br>
